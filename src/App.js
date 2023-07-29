@@ -4,7 +4,7 @@ import NavBar from './components/navBar/NavBar';
 import Button from './components/button/Button';
 import ListItems from './components/listItems/ListItems';
 import About from './components/about/About';
-import Card from './components/card/Card';
+import Counter from './components/counter/Counter';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <ListItems list={[ "azam", "mahran"]}/>
       <ListItems list={[1,2,3,4,5,6]}/>
       <About/>
-     {/* <Card/> */}
+     <Counter/>
     </div>
   );
 }
