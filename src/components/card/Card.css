@@ -1,0 +1,12 @@
+.card{
+    background-color: bisque;
+    color: black;
+    margin: 10px;
+    height: 12rem;
+}
+
+.card:hover{
+    background-color: aqua;
+    color: white;
+    width: 20rem;
+}
